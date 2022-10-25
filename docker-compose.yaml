@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+    mqtt_logcat:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: always
+        volumes:
+            - /home/ubuntu/docker/mqtt_logcat/index.js:/data/index.js
+        container_name: mqtt_logcat

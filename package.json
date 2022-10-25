@@ -1,0 +1,18 @@
+{
+    "name": "day09-mini-project",
+    "version": "1.0.0",
+    "description": "mini",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js"
+    },
+    "author": "Brian Hong",
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {
+        "mongoose": "^6.6.0",
+        "mqtt": "^4.3.7",
+        "mqtt-packet": "^8.1.2",
+        "nodemon": "^2.0.19"
+    }
+}
